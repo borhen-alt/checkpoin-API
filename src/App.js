@@ -14,12 +14,13 @@ function App() {
           setData(response.data);
         })
         .catch(function (error) {
-          console.log(error);
           setError(error);
+
         })
   }, []);
   return (
     <div>
+      <h1>MY CHECKPOINT API </h1>
       {console.log("data",data)}
       {<UserList user={data}/>}
 

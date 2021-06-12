@@ -12,7 +12,7 @@ const UserList = ({user}) => {
     <ListGroup.Item>Name:{el.name}</ListGroup.Item>
     <ListGroup.Item>Username:{el.username}</ListGroup.Item>
     <ListGroup.Item>Email:{el.email}</ListGroup.Item>
-    <ListGroup.Item>Address:{el.address}</ListGroup.Item>
+    {/* <ListGroup.Item>Address:{el.address}</ListGroup.Item> */}
     <ListGroup.Item>Phone:{el.phone}</ListGroup.Item>
     <ListGroup.Item>Website:{el.website}</ListGroup.Item>
     </di>
